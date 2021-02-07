@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | [Proyecto 2]</title>
+
+  <link rel="stylesheet" href="static/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
+  <script src="static/main.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <h1 id="title">Our Pricing</h1>
+    <div id="options">
+      <h4 id="anually">Anually</h4>
+      <div id="switch">
+        <a href="#" onclick="changePlan()">
+          <div id="bottom-switch"></div>
+        </a>
+      </div>
+      <h4 id="monthly">Monthly</h4>
+    </div>
+    <div id="cards">
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-content">
+            <h1 class="plan">Basic</h1>
+            <h1 class="price" id="price1">$199.99</h1>
+            <div class="div-info">
+              <h4>500 GB storage</h4>
+            </div>
+            <div class="div-info">
+              <h4>2 Users Allowed</h4>
+            </div>
+            <div class="div-info" id="last-text">
+              <h4>Send up to 3GB</h4>
+            </div>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div id="card-central">
+        <div class="card-inside-central">
+          <div class="card-content-central">
+            <h1 class="plan-central">Professional</h1>
+            <h1 class="price-central" id="price2">$249.99</h1>
+            <div id="div-info-central">
+              <h4>1 TB storage</h4>
+            </div>
+            <div id="div-info-central">
+              <h4>5 Users Allowed</h4>
+            </div>
+            <div id="div-info-central" class="last-text-central">
+              <h4>Send up to 10GB</h4>
+            </div>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-content">
+            <h1 class="plan">Master</h1>
+            <h1 class="price" id="price3">$399.99</h1>
+            <div class="div-info">
+              <h4>1 TB storage</h4>
+            </div>
+            <div class="div-info">
+              <h4>10 User Allowed</h4>
+            </div>
+            <div class="div-info" id="last-text">
+              <h4>Send up to 30GB</h4>
+            </div>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
